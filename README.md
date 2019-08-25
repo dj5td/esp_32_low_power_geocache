@@ -23,4 +23,4 @@ Special thanks go out to my amateur radio friends who helped me a lot during des
 * Oliver
 * Rune Broberg
 
-You guys show us that amateur radio still is about experimenting with hardware and software, and that it is even more amazing to do so then ever before. This international community is amazing and I encourage everyone interested in tinkering, creating and engineering to join us.
+You guys show us that amateur radio still is about experimenting with hardware and software, and that it is even more amazing to do so than ever before. This international community is amazing and I encourage everyone interested in tinkering, creating and engineering to join us.
