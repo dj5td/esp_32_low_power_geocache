@@ -10,7 +10,7 @@
 ## Schematic
 
 ## Parts
-
+You can find a bill of materials (BOM) file for LCSC in the repository. Not included are pinheaders, solar panel and the lithium-ion battery.
 ## Software
 Software will be developed once I received and built the first prototyp. Hang in there.
 ## License
