@@ -18,3 +18,7 @@
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence. See the [LICENSE.md](LICENSE.md) file for details.
 ## Acknowledgments
+Special thanks go out to my amateur radio friends who helped me a lot during design of the schematic and PCB:
+*Mathias Weyland
+*Oliver
+*Rune Broberg
