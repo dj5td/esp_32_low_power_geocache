@@ -1,4 +1,5 @@
 # ESP 32 low power geocache
+<img src="https://github.com/dj5td/esp_32_low_power_geocache/blob/master/Pictures/PCB_3D_render.jpg" alt="Smiley face" height="284" width="575">
 
 
 ## Idea and Goals
