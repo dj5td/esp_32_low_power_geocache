@@ -689,23 +689,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5D63DCBE
-P 3900 3950
-F 0 "J2" H 3980 3942 50  0000 L CNN
-F 1 "Conn_01x02" H 3980 3851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3900 3950 50  0001 C CNN
-F 3 "~" H 3900 3950 50  0001 C CNN
-	1    3900 3950
+P 3750 3950
+F 0 "J2" H 3830 3942 50  0000 L CNN
+F 1 "Conn_01x02" H 3830 3851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 3950 50  0001 C CNN
+F 3 "~" H 3750 3950 50  0001 C CNN
+	1    3750 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5D63E178
-P 3700 4050
-F 0 "#PWR019" H 3700 3800 50  0001 C CNN
-F 1 "GND" H 3705 3877 50  0000 C CNN
-F 2 "" H 3700 4050 50  0001 C CNN
-F 3 "" H 3700 4050 50  0001 C CNN
-	1    3700 4050
+P 3550 4050
+F 0 "#PWR019" H 3550 3800 50  0001 C CNN
+F 1 "GND" H 3555 3877 50  0000 C CNN
+F 2 "" H 3550 4050 50  0001 C CNN
+F 3 "" H 3550 4050 50  0001 C CNN
+	1    3550 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -829,7 +829,7 @@ F 3 "" H 2550 1850 50  0001 C CNN
 $EndComp
 Text Label 1200 1450 2    50   ~ 0
 SOLAR_IN
-Text Label 3700 3950 2    50   ~ 0
+Text Label 3550 3950 2    50   ~ 0
 SOLAR_IN
 $Comp
 L power:GND #PWR012
@@ -997,34 +997,23 @@ D-
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5D8570E9
-P 3900 3400
-F 0 "J5" H 3980 3392 50  0000 L CNN
-F 1 "Conn_01x02" H 3980 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3900 3400 50  0001 C CNN
-F 3 "~" H 3900 3400 50  0001 C CNN
-	1    3900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-BATT #PWR026
-U 1 1 5D85823A
-P 3700 3500
-F 0 "#PWR026" H 3700 3350 50  0001 C CNN
-F 1 "-BATT" H 3715 3673 50  0000 C CNN
-F 2 "" H 3700 3500 50  0001 C CNN
-F 3 "" H 3700 3500 50  0001 C CNN
-	1    3700 3500
+P 6650 5150
+F 0 "J5" H 6730 5142 50  0000 L CNN
+F 1 "Battery" H 6730 5051 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 5150
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+BATT #PWR025
 U 1 1 5D858660
-P 3700 3400
-F 0 "#PWR025" H 3700 3250 50  0001 C CNN
-F 1 "+BATT" H 3715 3573 50  0000 C CNN
-F 2 "" H 3700 3400 50  0001 C CNN
-F 3 "" H 3700 3400 50  0001 C CNN
-	1    3700 3400
+P 8600 4750
+F 0 "#PWR025" H 8600 4600 50  0001 C CNN
+F 1 "+BATT" H 8615 4923 50  0000 C CNN
+F 2 "" H 8600 4750 50  0001 C CNN
+F 3 "" H 8600 4750 50  0001 C CNN
+	1    8600 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1054,21 +1043,21 @@ $EndComp
 Text GLabel 5750 2300 0    50   Input ~ 0
 GND
 Wire Notes Line
-	3200 4500 4550 4500
+	3050 4500 4400 4500
 Wire Notes Line
-	4550 3100 3200 3100
+	4400 3100 3050 3100
 Wire Notes Line
-	4550 3100 4550 4500
+	4400 3100 4400 4500
 Wire Notes Line
-	3200 3100 3200 4500
+	3050 3100 3050 4500
 Wire Notes Line
 	6000 4600 6000 7650
 Text Notes 5350 7600 0    50   ~ 0
 USB Programmer
 Text Notes 2250 4450 0    50   ~ 0
 Voltage regulation\n
-Text Notes 4150 4450 0    50   ~ 0
-Conectors
+Text Notes 3950 4450 0    50   ~ 0
+Connectors
 Text Notes 5800 2950 0    50   ~ 0
 BMS
 Text Notes 10800 4450 0    50   ~ 0
@@ -1087,4 +1076,115 @@ Wire Notes Line
 	6300 600  11100 600 
 Wire Notes Line
 	11100 600  11100 4500
+$Comp
+L Battery_Management:DW01B U5
+U 1 1 5D644D68
+P 7900 5200
+F 0 "U5" H 7900 5575 50  0000 C CNN
+F 1 "DW01B" H 7900 5484 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 7850 5550 50  0001 C CNN
+F 3 "" H 7850 5550 50  0001 C CNN
+	1    7900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:SE8810A Q4
+U 1 1 5D64D7B2
+P 7800 5750
+F 0 "Q4" V 8001 5750 50  0000 C CNN
+F 1 "SE8810A" V 8092 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 7800 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/SINO-IC-SE8810A-ESD_C238647.pdf" H 7800 6000 50  0001 C CNN
+	1    7800 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:SE8810A Q4
+U 2 1 5D65824F
+P 8200 5750
+F 0 "Q4" V 8401 5750 50  0000 C CNN
+F 1 "SE8810A" V 8492 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 8200 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/SINO-IC-SE8810A-ESD_C238647.pdf" H 8200 6000 50  0001 C CNN
+	2    8200 5750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8050 5500 8200 5500
+$Comp
+L Device:R R11
+U 1 1 5D6B03A0
+P 8400 5500
+F 0 "R11" H 8470 5546 50  0000 L CNN
+F 1 "1K" H 8470 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8330 5500 50  0001 C CNN
+F 3 "~" H 8400 5500 50  0001 C CNN
+	1    8400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 5300 8400 5300
+Wire Wire Line
+	8400 5300 8400 5350
+Wire Wire Line
+	8400 5650 8400 5800
+$Comp
+L Device:C C7
+U 1 1 5D6B6FC5
+P 7150 5200
+F 0 "C7" H 7265 5246 50  0000 L CNN
+F 1 "0.1uF" H 7265 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 5050 50  0001 C CNN
+F 3 "~" H 7150 5200 50  0001 C CNN
+	1    7150 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5300 7450 5350
+$Comp
+L Device:R R10
+U 1 1 5D6DB214
+P 7000 5050
+F 0 "R10" V 6793 5050 50  0000 C CNN
+F 1 "100R" V 6884 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 5050 50  0001 C CNN
+F 3 "~" H 7000 5050 50  0001 C CNN
+	1    7000 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 5350 7150 5350
+Connection ~ 7450 5350
+Wire Wire Line
+	7450 5050 7150 5050
+Connection ~ 7150 5050
+Wire Wire Line
+	6850 5150 6850 5350
+Wire Wire Line
+	6850 5350 7150 5350
+Connection ~ 7150 5350
+Wire Wire Line
+	6850 5050 6850 4750
+Wire Wire Line
+	6850 4750 8600 4750
+Connection ~ 6850 5050
+Wire Wire Line
+	6850 5350 6850 5800
+Wire Wire Line
+	6850 5800 7600 5800
+Connection ~ 6850 5350
+Connection ~ 8400 5800
+Wire Wire Line
+	8600 5800 8400 5800
+$Comp
+L power:-BATT #PWR026
+U 1 1 5D85823A
+P 8600 5800
+F 0 "#PWR026" H 8600 5650 50  0001 C CNN
+F 1 "-BATT" H 8615 5973 50  0000 C CNN
+F 2 "" H 8600 5800 50  0001 C CNN
+F 3 "" H 8600 5800 50  0001 C CNN
+	1    8600 5800
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
